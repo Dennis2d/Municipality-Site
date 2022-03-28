@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/30c919ccb9.js" crossorigin="anonymous"></script>
+
+    <style>
+        @media only screen and (max-width: 991px) {
+            .navbar-hover .show > .dropdown-toggle::after {
+                transform: rotate(-90deg);
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            .navbar-hover .collapse ul li {
+                position: relative;
+            }
+
+                .navbar-hover .collapse ul li:hover > ul {
+                    display: block;
+                }
+
+            .navbar-hover .collapse ul ul {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 250px;
+                display: none
+            }
+
+                .navbar-hover .collapse ul ul ul {
+                    position: absolute;
+                    top: 0;
+                    left: 100%;
+                    min-width: 250px;
+                    display: none
+                }
+
+                    .navbar-hover .collapse ul ul ul ul {
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        min-width: 250px;
+                        display: none;
+                        z-index: 1
+                    }
+        }
+    </style>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+
+    <style>
+        p{
+            margin-top:10px;
+        }
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class=" row">
+            <div class="col-5 my-auto">
+                <img src="../Images/Municipaliti Picture/municipality.jpg" width="330" />
+            </div>
+            <div class="col-5 my-auto">
+                <img src="../Images/Municipaliti Picture/download filozoiki.png" width="320" />
+            </div>
+            <div class="col-2 my-auto">
+                <a href="https://www.facebook.com/3vitagr"> <i class="fab fa-facebook-square"></i></a>
+                <img src="../Images/Municipaliti Picture/7-76090_flags-icon-family-small-uk-flag-icon english.png" width="30" />
+            </div>
+
+            <!--DropDown Menu-->
+
+            <div class="col-12 my-auto">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-hover">
+                    <a class="navbar-brand" href="#"><i class="fas fa-bars"></i></></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHover" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarHover">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./MyMunicipalitysb.html">
+                                    My Municipality
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item dropdown-toggle" href="Gallery.html">Our City</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./InforamtionAboutMayorsb.html">Information about the Mayor</a></li>
+                                            <li><a class="dropdown-item" href="./InformationAboutSecondaryMayor.html">Inforamtion about the Deputy Mayor</a></li>
+                                            <li><a class="dropdown-item" href="./AddministrativePersonel.html">Addministrative Personel</a></li>
+                                            <li><a class="dropdown-item" href="./HotSpots.html">HotSpots</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Contactsb.html">
+                                    Contact us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./ComplaintmentForumsb.html">Complaintment Forum</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./NewsForumsb.html">
+                                    News Forum
+                                </a>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./MunicipalityProjectssb.html">
+                                    Municipality Projects
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a class="dropdown-item" href="./PaidSubscription.html">Paid Subscription</a></li>
+                                    <li><a class="dropdown-item" href="./MunicipalityResidentSubs.html">Mucicipality Resident Subscription</a></li>
+                                    <li><a class="dropdown-item" href="Russia Home.html"> <img src="../Images/Municipaliti Picture/russian flag.png" width="25" /></a></li>
+                                    <li><a class="dropdown-item" href="Italy home.html"> <img src="../Images/Municipaliti Picture/italy flag.png" width="25" /></a></li>
+                                    <li><a class="dropdown-item" href="Germany Home.html"> <img src="../Images/Municipaliti Picture/german flag.png" width="25" /></a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+          
+            <p>
+                <strong>Local Tour Guids (-30 6945302215 Opening Hours 8-6)</strong>
+                <img style='float:left; margin-right:15px;margin-top:10px;' img src="../Images/Municipaliti Picture/tour guide.JPG" width="280" lenght="350" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim non velit vel bibendum. Nunc dignissim, augue vel tempor tempor,
+                odio dolor bibendum odio, eu lacinia augue leo semper sapien. Cras volutpat consectetur tortor, ac lobortis nulla ultricies quis. Suspendisse commodo, augue eu maximus placerat,
+                metus libero varius odio, vitae vestibulum sem nisl ac neque. Aenean malesuada scelerisque mauris. Suspendisse potenti. Aliquam fermentum justo et justo blandit varius. Mauris nec rhoncus elit, eget pharetra risus.
+                Integer ultrices nisl et enim gravida, quis tempus ex aliquet. Aliquam nec ultrices justo. Suspendisse vitae imperdiet dui, id iaculis justo. Nunc sed odio posuere, sollicitudin ipsum nec, condimentum neque.
+                Sed cursus a erat sed eleifend sed sagittis ligula vitae elit vulputate, vitae ultrices sapien tristique. Aenean rhoncus facilisis lorem, eu lobortis quam viverra at.
+            </p>
+
+            <p>
+                <strong>Traditional Paths (-30 693210887 Opening Hours 9-5)</strong>
+                <img style='float:left; margin-right:15px;margin-top:10px;' img src="../Images/Municipaliti Picture/traditional tours.JPG" width="280" lenght="350" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim non velit vel bibendum. Nunc dignissim, augue vel tempor tempor,
+                odio dolor bibendum odio, eu lacinia augue leo semper sapien. Cras volutpat consectetur tortor, ac lobortis nulla ultricies quis. Suspendisse commodo, augue eu maximus placerat,
+                metus libero varius odio, vitae vestibulum sem nisl ac neque. Aenean malesuada scelerisque mauris. Suspendisse potenti. Aliquam fermentum justo et justo blandit varius. Mauris nec rhoncus elit, eget pharetra risus.
+                Integer ultrices nisl et enim gravida, quis tempus ex aliquet. Aliquam nec ultrices justo. Suspendisse vitae imperdiet dui, id iaculis justo. Nunc sed odio posuere, sollicitudin ipsum nec, condimentum neque.
+                Sed cursus a erat sed eleifend sed sagittis ligula vitae elit vulputate, vitae ultrices sapien tristique. Aenean rhoncus facilisis lorem, eu lobortis quam viverra at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim non velit vel bibendum. Nunc dignissim, augue vel tempor tempor,
+                odio dolor bibendum odio, eu lacinia augue leo semper sapien. Cras volutpat consectetur tortor, ac lobortis nulla ultricies quis. Suspendisse commodo, augue eu maximus placerat,
+                metus libero varius odio, vitae vestibulum sem nisl ac neque. Aenean malesuada scelerisque mauris. Suspendisse potenti. Aliquam fermentum justo et justo blandit varius. Mauris nec rhoncus elit, eget pharetra risus.
+            </p>
+
+            <p>
+                <strong>Limni Vouliagmenis (-30 6942116754 Opening Hours 8-7)</strong>
+                <img style='float:left; margin-right:15px;margin-top:10px;' img src="../Images/Municipaliti Picture/limni.JPG" width="280" lenght="350" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim non velit vel bibendum. Nunc dignissim, augue vel tempor tempor,
+                odio dolor bibendum odio, eu lacinia augue leo semper sapien. Cras volutpat consectetur tortor, ac lobortis nulla ultricies quis. Suspendisse commodo, augue eu maximus placerat,
+                metus libero varius odio, vitae vestibulum sem nisl ac neque. Aenean malesuada scelerisque mauris. Suspendisse potenti. Aliquam fermentum justo et justo blandit varius. Mauris nec rhoncus elit, eget pharetra risus.
+                Integer ultrices nisl et enim gravida, quis tempus ex aliquet. Aliquam nec ultrices justo. Suspendisse vitae imperdiet dui, id iaculis justo. Nunc sed odio posuere, sollicitudin ipsum nec, condimentum neque.
+                Sed cursus a erat sed eleifend sed sagittis ligula vitae elit vulputate, vitae ultrices sapien tristique. Aenean rhoncus facilisis lorem, eu lobortis quam viverra at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim non velit vel bibendum. Nunc dignissim, augue vel tempor tempor,
+                odio dolor bibendum odio, eu lacinia augue leo semper sapien. Cras volutpat consectetur tortor, ac lobortis nulla ultricies quis. Suspendisse commodo, augue eu maximus placerat,
+                metus libero varius odio, vitae vestibulum sem nisl ac neque. Aenean malesuada scelerisque mauris. Suspendisse potenti. Aliquam fermentum justo et justo blandit varius. Mauris nec rhoncus elit, eget pharetra risus.
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>

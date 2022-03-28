@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+
+    </title>
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/30c919ccb9.js" crossorigin="anonymous"></script>
+
+    <style>
+        @media only screen and (max-width: 991px) {
+            .navbar-hover .show > .dropdown-toggle::after {
+                transform: rotate(-90deg);
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            .navbar-hover .collapse ul li {
+                position: relative;
+            }
+
+                .navbar-hover .collapse ul li:hover > ul {
+                    display: block;
+                }
+
+            .navbar-hover .collapse ul ul {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 250px;
+                display: none
+            }
+
+                .navbar-hover .collapse ul ul ul {
+                    position: absolute;
+                    top: 0;
+                    left: 100%;
+                    min-width: 250px;
+                    display: none
+                }
+
+                    .navbar-hover .collapse ul ul ul ul {
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        min-width: 250px;
+                        display: none;
+                        z-index: 1
+                    }
+        }
+    </style>
+    <style>
+        p{
+            margin-top:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Background color-->
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+    <div class="container">
+        <div class=" row">
+            <div class="col-5 my-auto">
+                <img src="../Images/Municipaliti Picture/municipality.jpg" width="330" />
+            </div>
+            <div class="col-5 my-auto">
+                <img src="../Images/Municipaliti Picture/download filozoiki.png"width="320" />
+            </div>
+            <div class="col-2 my-auto">
+                <a href="https://www.facebook.com/3vitagr"> <i class="fab fa-facebook-square"></i></a>
+                <img src="../Images/Municipaliti Picture/7-76090_flags-icon-family-small-uk-flag-icon english.png" width="30" />
+            </div>
+            <!--Menu-->
+            <div class="col-12 my-auto">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-hover">
+                    <a class="navbar-brand" href="#"><i class="fas fa-bars"></i></></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHover" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarHover">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./MyMunicipalitysb.html" >
+                                    My Municipality
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item dropdown-toggle" href="./Gallery.html">Our City</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./InforamtionAboutMayorsb.html">Information about the Mayor</a></li>
+                                            <li><a class="dropdown-item" href="./InformationAboutSecondaryMayor.html">Inforamtion about the Deputy Mayor</a></li>
+                                            <li><a class="dropdown-item" href="./AddministrativePersonel.html">Addministrative Personel</a></li>
+                                            <li><a class="dropdown-item" href="./HotSpots.html">HotSpots</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Contactsb.html">
+                                    Contact us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./ComplaintmentForumsb.html">Complaintment Forum</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./NewsForumsb.html" >
+                                    News Forum
+                                </a>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./MunicipalityProjectssb.html" >
+                                    Municipality Projects
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./PaidSubscription.html">Subscription</a></li>
+                                    <li><a class="dropdown-item" href="./MunicipalityResidentSubs.html">Mucicipality Resident Subscription</a></li>
+                                    <li><a class="dropdown-item" href="Russia Home.html"> <img src="../Images/Municipaliti Picture/russian flag.png" width="25" /></a></li>
+                                    <li><a class="dropdown-item" href="Italy home.html"> <img src="../Images/Municipaliti Picture/italy flag.png" width="25" /></a></li>
+                                    <li><a class="dropdown-item" href="Germany Home.html"> <img src="../Images/Municipaliti Picture/german flag.png" width="25" /></a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Home.html">
+                                    Home
+                                </a>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--Information About Mayor-->
+        <!--<img style='vertical-align:middle;'  img src="../Images/Municipaliti Picture/Grigoris_Konstantellos v1.jpg" width="250"/>
+    <div style='vertical-align:middle; display:inline-flex;'>
+        Mayor of Vari-Voula-Vouliagmeni is Grigorios Konstantellos. He was born in Voula in April 1967. He is married with three children.
+        He attended Athens College and graduated from Voula High School in 1985. He was trained at the US Air Academy "FLIGHT SAFETY", where he received a professional aircraft operator degree. He is a graduate of the Department of Public Administration at Panteion University and holds a master’s degree in aviation management from the City University of London. He holds a Ph.D. in Management Science from the International School of Management (I.S.M) in Paris.
+        From January 1988 to December 2009 Konstantellos worked at Olympic Airways and Olympic Airlines as a Co-Commander for nine years and as Commander for thirteen years. After leaving the company in December 2009, he left as a Commander-in-Chief at Boeing 737-400. After that he worked for a relatively short time in the Civil Aviation Service and in 2011 returned to his flying duties as a Boeing 737 / 300-400 commander in the United Nations (UN) operations and in transporting the UN soldiers to and from war zones across the world. Then he served as Boeing 737 / 800-900 Commander at Turkish Airlines until December 2013. He is currently Commander at Falcon 900 / DX EASy 2.
+        He has been a Member, Treasurer, Secretary-General and President of the Civil Aviation Operators Association (CCAF) for fifteen years and has also served for six years in the management committee of the OA Pilot Auxiliary Pension Fund. He is also a member of the European Union of Air Transport Pilots for three years (2004-2007).
+        During his school years Konstantellos was student body president in 1st High School of Voula for two years (83-84 and 84-85).
+        He has been actively involved with Local Government and served as Voula Municipal Councilor 1990-94 and 2002-06, as well as Vice Chairman of the BoD. in 1990-1994.
+        He was elected for the third time in the 2006 elections and served as Deputy Mayor for Administration and Finance and Deputy Mayor from January 2007 to February 2010.
+        Following the November 2010 municipal elections, he won the title of Mayor of the new City of Vari Voula Vouliagmeni and received 45% of the preference of the local electorate in the second round of elections, assuming and holding office until 31 August 2014 of the Head of the Majority Minority of the Municipality (Official Opposition).
+        At the Municipal Elections on 25 May 2014, he led the "Vari Voula Vouliagmeni - City to Live" party and has been mayor of Vari Voula Vouliagmeni Municipality since September 1st.
+        In the May 26, 2019 Municipal Elections, he led the "Vari Voula Vouliagmeni - City to Live" party and won 72.04% of the votes, claiming 24 of the 33 seats. Konstantellos was yet again named mayor of Vari Voula Vouliagmeni on 1 September 2019.
+    </div>-->
+
+        <p>
+            <img style='float:left; margin-right:20px; margin-top:10px;' img src="../Images/Municipaliti Picture/Grigoris_Konstantellos v1.jpg" width="250" />
+            Mayor of Vari-Voula-Vouliagmeni is Grigorios Konstantellos. He was born in Voula in April 1967. He is married with three children.
+            He attended Athens College and graduated from Voula High School in 1985. He was trained at the US Air Academy "FLIGHT SAFETY", where 
+            he received a professional aircraft operator degree. He is a graduate of the Department of Public Administration at Panteion University
+            and holds a master’s degree in aviation management from the City University of London. He holds a Ph.D. in Management Science from the International School of Management (I.S.M) in Paris.
+            From January 1988 to December 2009 Konstantellos worked at Olympic Airways and Olympic Airlines as a Co-Commander for nine years and as Commander for thirteen years. After leaving the company in December 2009, he left as a Commander-in-Chief at Boeing 737-400. After that he worked for a relatively short time in the Civil Aviation Service and in 2011 returned to his flying duties as a Boeing 737 / 300-400 commander in the United Nations (UN) operations and in transporting the UN soldiers to and from war zones across the world. Then he served as Boeing 737 / 800-900 Commander at Turkish Airlines until December 2013. He is currently Commander at Falcon 900 / DX EASy 2.
+            He has been a Member, Treasurer, Secretary-General and President of the Civil Aviation Operators Association (CCAF) for fifteen years and has also served for six years in the management committee of the OA Pilot Auxiliary Pension Fund. He is also a member of the European Union of Air Transport Pilots for three years (2004-2007).
+            During his school years Konstantellos was student body president in 1st High School of Voula for two years (83-84 and 84-85).
+            He has been actively involved with Local Government and served as Voula Municipal Councilor 1990-94 and 2002-06, as well as Vice Chairman of the BoD. in 1990-1994.
+            He was elected for the third time in the 2006 elections and served as Deputy Mayor for Administration and Finance and Deputy Mayor from January 2007 to February 2010.
+            Following the November 2010 municipal elections, he won the title of Mayor of the new City of Vari Voula Vouliagmeni and received 45% of the preference of the local electorate in the second round of elections, assuming and holding office until 31 August 2014 of the Head of the Majority Minority of the Municipality (Official Opposition).
+            At the Municipal Elections on 25 May 2014, he led the "Vari Voula Vouliagmeni - City to Live" party and has been mayor of Vari Voula Vouliagmeni Municipality since September 1st.
+            In the May 26, 2019 Municipal Elections, he led the "Vari Voula Vouliagmeni - City to Live" party and won 72.04% of the votes, claiming 24 of the 33 seats. Konstantellos was yet again named mayor of Vari Voula Vouliagmeni on 1 September 2019.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt augue vel pharetra. Fusce vitae mauris sit amet enim semper egestas. Quisque ac lectus a purus fringilla aliquam id sit amet enim. Maecenas eu commodo eros. Fusce quis risus non sem eleifend rutrum fermentum eget enim. Etiam dapibus ligula metus, nec interdum lacus placerat in. Nulla facilisi. Nulla risus magna, fringilla at ultrices scelerisque,
+            tempus id erat. Mauris dictum nulla leo, ac finibus sapien aliquam id.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            Cras a mi mattis ligula sodales eleifend. Aenean auctor quam sed enim rutrum, nec egestas enim scelerisque. Duis ac commodo mauris.
+            Cras id nisl mauris. Donec id gravida magna. Pellentesque vehicula, metus vitae sagittis egestas, eros nunc facilisis sem, sed maximus metus magna nec est. Integer pharetra mi vel elit maximus,
+            eu mollis tellus dictum. Donec vestibulum, arcu vitae convallis pulvinar, felis magna ultrices erat, vitae condimentum diam libero et magna.
+        </p>
+
+        </div>
+</body>
+</html>

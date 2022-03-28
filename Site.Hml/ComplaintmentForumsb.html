@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/30c919ccb9.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        @media only screen and (max-width: 991px) {
+            .navbar-hover .show > .dropdown-toggle::after {
+                transform: rotate(-90deg);
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            .navbar-hover .collapse ul li {
+                position: relative;
+            }
+
+                .navbar-hover .collapse ul li:hover > ul {
+                    display: block;
+                }
+
+            .navbar-hover .collapse ul ul {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 250px;
+                display: none
+            }
+
+                .navbar-hover .collapse ul ul ul {
+                    position: absolute;
+                    top: 0;
+                    left: 100%;
+                    min-width: 250px;
+                    display: none
+                }
+
+                    .navbar-hover .collapse ul ul ul ul {
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        min-width: 250px;
+                        display: none;
+                        z-index: 1
+                    }
+        }
+    </style>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+
+    <style>
+        p{
+            margin-top:10px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class=" row">
+            <div class="col-5 my-auto">
+                <img src="../Images/Municipaliti Picture/municipality.jpg" width="330" />
+            </div>
+            <div class="col-5 my-auto">
+                <img src="../Images/Municipaliti Picture/download filozoiki.png" width="320" />
+            </div>
+            <div class="col-2 my-auto">
+                <a href="https://www.facebook.com/3vitagr"> <i class="fab fa-facebook-square"></i></a>
+                <img src="../Images/Municipaliti Picture/7-76090_flags-icon-family-small-uk-flag-icon english.png" width="30" />
+            </div>
+
+            <!--DropDown Menu-->
+
+            <div class="col-12 my-auto">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-hover">
+                    <a class="navbar-brand" href="#"><i class="fas fa-bars"></i></></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHover" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarHover">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./MyMunicipalitysb.html">
+                                    My Municipality
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item dropdown-toggle" href="Gallery.html">Our City</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./InforamtionAboutMayorsb.html">Information about the Mayor</a></li>
+                                            <li><a class="dropdown-item" href="./InformationAboutSecondaryMayor.html">Inforamtion about the Deputy Mayor</a></li>
+                                            <li><a class="dropdown-item" href="./AddministrativePersonel.html">Addministrative Personel</a></li>
+                                            <li><a class="dropdown-item" href="./HotSpots.html">HotSpots</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Contactsb.html">
+                                    Contact us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./ComplaintmentForumsb.html">Complaintment Forum</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./NewsForumsb.html">
+                                    News Forum
+                                </a>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./MunicipalityProjectssb.html">
+                                    Municipality Projects
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-plus-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a class="dropdown-item" href="./PaidSubscription.html">Paid Subscription</a></li>
+                                    <li><a class="dropdown-item" href="./MunicipalityResidentSubs.html">Mucicipality Resident Subscription</a></li>
+                                    <li><a class="dropdown-item" href="Russia Home.html"> <img src="../Images/Municipaliti Picture/russian flag.png" width="25" /></a></li>
+                                    <li><a class="dropdown-item" href="Italy home.html"> <img src="../Images/Municipaliti Picture/italy flag.png" width="25" /></a></li>
+                                    <li><a class="dropdown-item" href="Germany Home.html"> <img src="../Images/Municipaliti Picture/german flag.png" width="25" /></a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./Home.html">
+                                    Home
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <p>
+
+            <img style='float:left; margin-right:15px; margin-top:10px;' img src="../Images/Municipaliti Picture/default prof pic.jpg" width="200" /> (Guest 5542) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus magna, volutpat at tristique vestibulum, posuere ut felis.
+            Nulla tellus massa, eleifend ut leo vitae, elementum volutpat est. Cras elit ex, tempus at sem id, euismod volutpat elit. Nulla sed leo sed ex luctus consequat. Aenean consectetur elit sed mollis efficitur. Quisque imperdiet, augue eget volutpat luctus, tellus magna finibus leo,
+            laoreet rhoncus nulla lectus gravida sapien. Integer eget eros vel ex ullamcorper mollis non in neque. Cras interdum tellus mauris, quis laoreet felis volutpat in. Maecenas condimentum ac lectus id consectetur. Maecenas non vulputate sapien. Integer feugiat dictum mattis.
+            Fusce commodo luctus nisl ut ultricies. Ut odio metus, rhoncus eu pulvinar quis, mattis ut nulla. Nam quis massa non sapien lacinia convallis malesuada in nibh.Maecenas sed velit vitae sapien pulvinar feugiat.Nulla accumsan in elit sodales ornare nam sagittis tempus magna, vel accumsan elit congue eu.
+            Aliquam metus ipsum, pellentesque sit amet libero vel, mattis posuere eros.
+
+        </p>
+
+        <p>
+
+            <img style='float:left; margin-right:15px; margin-top:10px;' img src="../Images/Municipaliti Picture/default prof pic.jpg" width="200" /> (Guest 4622) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus magna, volutpat at tristique vestibulum, posuere ut felis.
+            Nulla tellus massa, eleifend ut leo vitae, elementum volutpat est. Cras elit ex, tempus at sem id, euismod volutpat elit. Nulla sed leo sed ex luctus consequat. Aenean consectetur elit sed mollis efficitur. Quisque imperdiet, augue eget volutpat luctus, tellus magna finibus leo,
+            laoreet rhoncus nulla lectus gravida sapien. Integer eget eros vel ex ullamcorper mollis non in neque. Cras interdum tellus mauris, quis laoreet felis volutpat in. Maecenas condimentum ac lectus id consectetur. Maecenas non vulputate sapien. Integer feugiat dictum mattis.
+            Fusce commodo luctus nisl ut ultricies. Ut odio metus, rhoncus eu pulvinar quis, mattis ut nulla. Nam quis massa non sapien lacinia convallis malesuada in nibh.Maecenas sed velit vitae sapien pulvinar feugiat.Nulla accumsan in elit sodales ornare nam sagittis tempus magna, vel accumsan elit congue eu.
+            Aliquam metus ipsum, pellentesque sit amet libero vel, mattis posuere eros.
+
+        </p>
+
+        <p>
+
+            <img style='float:left; margin-right:15px; margin-top:10px;' img src="../Images/Municipaliti Picture/default prof pic.jpg" width="200" /> (Guest 6433) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus magna, volutpat at tristique vestibulum, posuere ut felis.
+            Nulla tellus massa, eleifend ut leo vitae, elementum volutpat est. Cras elit ex, tempus at sem id, euismod volutpat elit. Nulla sed leo sed ex luctus consequat. Aenean consectetur elit sed mollis efficitur. Quisque imperdiet, augue eget volutpat luctus, tellus magna finibus leo,
+            laoreet rhoncus nulla lectus gravida sapien. Integer eget eros vel ex ullamcorper mollis non in neque. Cras interdum tellus mauris, quis laoreet felis volutpat in. Maecenas condimentum ac lectus id consectetur. Maecenas non vulputate sapien. Integer feugiat dictum mattis.
+            Fusce commodo luctus nisl ut ultricies. Ut odio metus, rhoncus eu pulvinar quis, mattis ut nulla. Nam quis massa non sapien lacinia convallis malesuada in nibh.Maecenas sed velit vitae sapien pulvinar feugiat.Nulla accumsan in elit sodales ornare nam sagittis tempus magna, vel accumsan elit congue eu.
+            Aliquam metus ipsum, pellentesque sit amet libero vel, mattis posuere eros.
+
+        </p>
+    </div>
+</body>
+</html>
